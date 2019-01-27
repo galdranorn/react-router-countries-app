@@ -7,9 +7,10 @@ import CountryDetailsContainer from './containers/country-details.container.comp
 import ContinentsContainer from './containers/continents-container.component';
 import Contact from './presentational/contact.component';
 import NotFound from './presentational/not-found.component';
+import styles from './country.css';
 
 export default (
-    <Route path='/' component={Navigation}>
+    <Route path='/' component={Navigation} style={styles}>
         <IndexRoute component={Home}/>
         <Route path='countries' >
             <IndexRoute component={CountryFlagContainer}/>
