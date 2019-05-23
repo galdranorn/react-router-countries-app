@@ -1,4 +1,4 @@
-# react-route
+# react-router-countries-app
 App displaying countries created with Create React App. **You can see live [here](https://galdranorn.github.io/react-router-countries-app/)**.
 
 ## Technologies used
